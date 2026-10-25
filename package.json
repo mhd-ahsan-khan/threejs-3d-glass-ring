@@ -1,0 +1,15 @@
+{
+  "name": "threejs-3d-glass-ring",
+  "version": "1.1.0",
+  "description": "Interactive 3D ring of iridescent glass discs in three.js. Click to explode, click again to reassemble.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "serve -l 8080 .",
+    "dev": "serve -l 8080 ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "license": "MIT"
+}

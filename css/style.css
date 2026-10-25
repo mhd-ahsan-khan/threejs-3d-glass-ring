@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  height: 100%;
+  overscroll-behavior: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Full-screen 3D view; a click anywhere on it explodes / reassembles the ring */
+#webgl {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+/* Soft dark edges, cheaper in CSS than as a render pass */
+.vignette {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(ellipse 75% 70% at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.hint {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.hint span {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: rgba(214, 208, 255, 0.5);
+  padding-left: 0.32em;
+  white-space: nowrap;
+  animation: breathe 3.2s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  50% { opacity: 0.45; }
+}
+
+.fallback {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  color: #9a95b8;
+  font-size: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hint span { animation: none; }
+}

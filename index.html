@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glass Disc Ring</title>
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- three.js r186 is bundled in /lib, so this runs offline -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./lib/three/build/three.module.js",
+      "three/addons/": "./lib/three/addons/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <canvas id="webgl" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <div class="hint" id="hint" aria-live="polite">
+    <span>Click anywhere</span>
+  </div>
+
+  <noscript><p class="fallback">This page needs JavaScript and WebGL.</p></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
