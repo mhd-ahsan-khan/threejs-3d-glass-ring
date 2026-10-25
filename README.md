@@ -9,6 +9,8 @@
 <img src="media/03.jpg" alt="Glass Disc Ring" height="100">
 </p>
 
+**Live preview:** [Click here](https://mhd-ahsan-khan.github.io/demos/glass-disc-ring/)
+
 A ring of thin, satin iridescent glass discs turning around a shared centre, seen straight on as a sunburst, with the camera slowly orbiting around it.
 
 **Click anywhere** and the ring explodes: every disc bursts away from where you clicked, tumbles, and floats in zero gravity, bouncing off the edges of the screen so nothing leaves the view. **Click again** and the discs fly back into their exact slots in the ring. Space or Enter does the same from the keyboard.
