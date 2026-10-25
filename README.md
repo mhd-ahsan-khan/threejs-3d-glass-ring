@@ -2,11 +2,12 @@
 ### Click | Explode | Interactive | WebGL | Animation | Physics | Post-processing | MSAA | Custom Shaders | reflections 
 
 ## Preview
+<p align="center">
 <img src="media/04.gif" alt="Glass Disc Ring" height="130">
 <img src="media/01.jpg" alt="Glass Disc Ring" width="250">
 <img src="media/02.jpg" alt="Glass Disc Ring" width="250">
 <img src="media/03.jpg" alt="Glass Disc Ring" width="250">
-
+</p>
 
 
 A ring of thin, satin iridescent glass discs turning around a shared centre, seen straight on as a sunburst, with the camera slowly orbiting around it.
