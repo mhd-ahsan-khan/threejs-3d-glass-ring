@@ -9,7 +9,7 @@
 <img src="media/03.jpg" alt="Glass Disc Ring" height="100">
 </p>
 
-**Live preview:** [Click here](https://mhd-ahsan-khan.github.io/demos/glass-disc-ring/)
+**Live preview:** [Click here](https://mhd-ahsan-khan.github.io/demos/glass-disc-ring/?debug)
 
 A ring of thin, satin iridescent glass discs turning around a shared centre, seen straight on as a sunburst, with the camera slowly orbiting around it.
 
